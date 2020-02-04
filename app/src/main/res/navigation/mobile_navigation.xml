@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_my_homepage">
+
+    <fragment
+        android:id="@+id/nav_my_homepage"
+        android:name="com.example.haatbazarecomapp.ui.home.HomeFragment"
+        android:label="Home Menu"
+        tools:layout="@layout/fragment_home"
+
+        />
+    <fragment
+        android:id="@+id/nav_my_orders"
+        android:name="com.example.haatbazarecomapp.ui.share.ShareFragment"
+        android:label="My Orders"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_my_cart"
+        android:name="com.example.haatbazarecomapp.ui.gallery.GalleryFragment"
+        android:label="My Cart"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_my_wishlist"
+        android:name="com.example.haatbazarecomapp.ui.slideshow.SlideshowFragment"
+        android:label="My Wishlist"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_my_account"
+        android:name="com.example.haatbazarecomapp.ui.tools.ToolsFragment"
+        android:label="My Account"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+       android:id="@+id/nav_logout"
+        android:name="com.example.haatbazarecomapp.ui.send.SendFragment"
+        android:label="Sign Out"
+        tools:layout="@layout/fragment_send"
+        />
+
+
+
+</navigation>

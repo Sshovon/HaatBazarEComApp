@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1089514027217",
+    "firebase_url": "https://ecomapp-f7995.firebaseio.com",
+    "project_id": "ecomapp-f7995",
+    "storage_bucket": "ecomapp-f7995.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089514027217:android:9f32701966d2808eeb2df0",
+        "android_client_info": {
+          "package_name": "com.example.haatbazarecomapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089514027217-0c92bi7m0khrm5fp0fare25ih43sqljl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC3hhx4_DBfT0Phf8-ryRznFKBroEzGYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089514027217-0c92bi7m0khrm5fp0fare25ih43sqljl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
