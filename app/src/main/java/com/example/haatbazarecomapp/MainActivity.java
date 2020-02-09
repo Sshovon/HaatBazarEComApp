@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             cartItem.getActionView().setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    myCart();
+                    
                 }
             });
         }else{
