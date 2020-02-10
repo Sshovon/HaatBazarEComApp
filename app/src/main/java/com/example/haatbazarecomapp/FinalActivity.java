@@ -18,6 +18,9 @@ public class FinalActivity extends AppCompatActivity {
     private Button confirmBtn;
     private TextView setText;
     private EditText getText;
+    private TextView shop;
+    private TextView shopname;
+    private TextView shopAddress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,9 @@ public class FinalActivity extends AppCompatActivity {
         confirmBtn = findViewById(R.id.button3);
         setText = findViewById(R.id.pick_up_time);
         getText = findViewById(R.id.pick_up_time_input);
+        shop =findViewById(R.id.textView3);
+        shopname= findViewById(R.id.textView4);
+        shopAddress = findViewById(R.id.textView6);
 
         pickUpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +44,10 @@ public class FinalActivity extends AppCompatActivity {
                 setText.setText("PickUp Time");
                 setText.setVisibility(View.VISIBLE);
                 getText.setVisibility(View.VISIBLE);
+                shop.setVisibility(View.VISIBLE);
+                shopname.setVisibility(View.VISIBLE);
+                shopAddress.setVisibility(View.VISIBLE);
+
             }
         });
 
@@ -49,6 +59,9 @@ public class FinalActivity extends AppCompatActivity {
                 setText.setText("Address");
                 setText.setVisibility(View.VISIBLE);
                 getText.setVisibility(View.VISIBLE);
+                shop.setVisibility(View.INVISIBLE);
+                shopname.setVisibility(View.INVISIBLE);
+                shopAddress.setVisibility(View.INVISIBLE);
 
             }
         });
